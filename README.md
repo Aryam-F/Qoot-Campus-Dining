@@ -4,7 +4,7 @@
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
 * **Real-Time Crowd Estimation:** Uses a hybrid statistical engine (`crowd_engine.dart`) combining live, recency-weighted student reports with historical hourly/daily baselines to display accurate crowd levels (**Low**, **Medium**, **High**).
 * **Campus Dining Directory:** Comprehensive listings of on-campus restaurants and cafes with detailed menus and pricing.
@@ -14,7 +14,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Framework:** Flutter & Dart
 * **Backend & Database:** Firebase (Cloud Firestore / Firebase Core)
