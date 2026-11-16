@@ -1,17 +1,23 @@
-# qoot
+# Qoot-قوت  — Smart Campus Dining & Crowd Tracker
 
-A new Flutter project.
+**Qoot** is a cross-platform mobile application built with Flutter designed to enhance the campus dining experience. It enables students to explore campus restaurants and cafes, browse full menus, check real-time crowd levels, and discover smart dining recommendations.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## ✨ Key Features
 
-A few resources to get you started if this is your first Flutter project:
+* **Real-Time Crowd Estimation:** Uses a hybrid statistical engine (`crowd_engine.dart`) combining live, recency-weighted student reports with historical hourly/daily baselines to display accurate crowd levels (**Low**, **Medium**, **High**).
+* **Campus Dining Directory:** Comprehensive listings of on-campus restaurants and cafes with detailed menus and pricing.
+* **Smart Recommendations:** Personalized dining suggestions tailored to user preferences and current crowd conditions.
+* **Clean Modern UI:** Built with a responsive interface styled using **Plus Jakarta Sans** typography.
+* **Cloud Sync:** Powered by Firebase for real-time crowd reporting and dynamic data updates.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+* **Framework:** Flutter & Dart
+* **Backend & Database:** Firebase (Cloud Firestore / Firebase Core)
+* **Architecture:** Modular separation between UI (`main.dart`), static/catalog data (`data.dart`), and pure Dart business logic (`crowd_engine.dart`) with unit testing (`crowd_engine_test.dart`).
+
+---
