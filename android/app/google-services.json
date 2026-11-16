@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1087766100674",
+    "project_id": "qoot-c4110",
+    "storage_bucket": "qoot-c4110.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087766100674:android:2915f0a528b3ae898fd95b",
+        "android_client_info": {
+          "package_name": "com.example.qoot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkYLNdWl0k_dCi7AHo7H9BnL1QYuq3gQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
